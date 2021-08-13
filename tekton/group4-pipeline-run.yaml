@@ -7,9 +7,9 @@ spec:
     - name: source-repo
       value: https://github.com/cloud-native-garage-method-cohort/distroless-express
     - name: image-repo
-      value: quay.io/alex_best_ibm/the-best-group-4-project
+      value: quay.io/alex_best_ibm/the-best-group-4-project-next
     - name: app-name
-      value: the-best-group-4-project
+      value: the-best-group-4-project-next
   serviceAccountName: build-bot
   pipelineRef:
     name: express-pipeline
