@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
-  generateName: the-best-group-4-pipeline-run-
+  generateName: the-best-group-4-next-pipeline-run-
 spec:
   params:
     - name: source-repo
